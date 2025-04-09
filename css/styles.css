@@ -13,7 +13,9 @@ body {
 
 header {
     background-color: #00F; 
-    
+    position: fixed;
+    width: 100%;
+    top:0;
 }
 
 .navbar {
@@ -51,18 +53,20 @@ header {
 
 main {
     width: 80%;
-    margin: 0 auto;
+    margin: 60px auto;
+
 }
 
 .hero {
    display: flex;
    flex-flow: column wrap;
+   margin-bottom: 3rem;
 }
 
 .hero .titles {
     /* margin: 2.5rem 0 1.5rem; */
     width: 70%;
-    margin: 40px auto;
+    margin: 3.5rem auto 2rem;
     text-align: center;
 }
 
@@ -70,8 +74,25 @@ main {
     font-size: 50px;
 }
 
+.motto {
+    font-weight: 450;
+    color: #FFC300;
+}
+
 .hero-description {
     text-align: center;
-    width: 0 auto;
+    width: 70%;
+    margin: 10px auto 1.5rem;
+}
+
+.hero-description p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+.hero img {
+    border-radius: 10px;
+    width: 100%;
 }
 
