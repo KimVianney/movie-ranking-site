@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,4 +7,71 @@
 
 body {
     font-family: "Rubik", sans-serif;
+    background-color: #1A1A2E;
+    color: white;
 }
+
+header {
+    background-color: #00F; 
+    
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbrand {
+    font-family: "Rubik Glitch", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.navlinks {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.navlinks li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero {
+   display: flex;
+   flex-flow: column wrap;
+}
+
+.hero .titles {
+    /* margin: 2.5rem 0 1.5rem; */
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.hero-description {
+    text-align: center;
+    width: 0 auto;
+}
+
