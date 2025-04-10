@@ -234,6 +234,7 @@ main {
     font-weight: bold;
     font-family: "Rubik", sans-serif;
     font-size: 25px;
+    text-align: center;
 
 }
 
@@ -257,4 +258,109 @@ main {
 .top5-cards .card-info a:hover{
     background-color:#fff;
     color: #000;
+}
+
+/* Footer section */
+footer {
+    background-color:#212845;
+    width:100%;
+    bottom: 0;
+
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 3rem 0;
+    /* border: 2px solid teal; */
+    gap: 20px;
+}
+
+.main-links,
+.affiliates,
+.contact {
+    flex: 0 28%;
+    /* border: 2px solid orangered; */
+}
+
+.main-links h3, 
+.contact h3 {
+    font-size: 25px;
+    padding: 5px 0;
+
+}
+
+.affiliates img {
+    width: 70px;
+}
+
+.main-links li, 
+.affiliates li,
+.contact li {
+    list-style: none;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contact {
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+}
+
+.socials {
+    padding: 5px 0;
+}
+.socials li{
+    display: inline;
+    /* flex-flow: row wrap; */
+    padding: 10px;
+    font-size: 22px;
+}
+
+.newsletter {
+    /* border: 2px solid orangered; */
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.newsletter p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFC300;
+}
+
+#newsForm input,
+#newsForm button{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+}
+
+#newsForm button {
+    font-weight: bold;
+    color: #fff;
+    background-color:  #FFC300;
+}
+
+.copyright {
+    padding: 15px 0;
+    /* border: 2px solid teal; */
+}
+
+.copyright p{
+    font-size: 20px;
+    font-weight: 300
 }
