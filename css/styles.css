@@ -376,7 +376,7 @@ footer {
   }
 
   main {
-    width: 75%;
+    width: 90%;
     margin: 100px auto;
   }
 
@@ -384,16 +384,24 @@ footer {
     margin-bottom: 1.5rem;
   }
 
+  .hero .titles {
+    width: 100%;
+  }
+
   .hero .title {
-    font-size: 18px;
+    font-size: 30px;
   }
 
   .motto {
-    font-size: 10px;
+    font-size: 15px;
+  }
+
+  .hero-description {
+    width: 100%;
   }
 
   .hero-description p {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.2rem;
   }
 
@@ -406,7 +414,7 @@ footer {
   #top5 h3 {
     margin: 6px 0;
     padding: 15px;
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .genre-cards {
@@ -426,7 +434,7 @@ footer {
 
   .genre-cards .card-label {
     height: 30px;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .genre-cards .card-label p {
@@ -475,12 +483,12 @@ footer {
 
   .top5-cards .card-info span {
     padding: 1px;
-    font-size: 12px;
+    font-size: 15px;
     width: 25px;
   }
 
   .top5-cards .card-info .movie-title {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
   }
 
@@ -488,12 +496,12 @@ footer {
     text-decoration: none;
     padding: 7.5px;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
   }
 
   .footer-container {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -505,7 +513,7 @@ footer {
 
   .main-links h3,
   .contact h3 {
-    font-size: 12px;
+    font-size: 18px;
     padding: 2.5px 0;
   }
 
@@ -538,12 +546,12 @@ footer {
   }
 
   .newsletter p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   #newsForm input,
   #newsForm button {
-    font-size: 12px;
+    font-size: 15px;
     padding: 5px;
   }
 
@@ -552,6 +560,6 @@ footer {
   }
 
   .copyright p {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
